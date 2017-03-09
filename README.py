@@ -1,3 +1,7 @@
+Suppose we are given an array of n integers representing stock prices on a single day. We want to find a pair (buyDay, sellDay), with buyDay ≤ sellDay, such that if we bought the stock on buyDay and sold it on sellDay, we would maximize our profit.
+
+Clearly there is an O(n2) solution to the algorithm by trying out all possible (buyDay, sellDay) pairs and taking the best out of all of them. However, is there a better algorithm, perhaps one that runs in O(n) time?
+
 # File: SingleSellProfit.py
 # Author: Keith Schwarz (htiek@cs.stanford.edu)
 #
